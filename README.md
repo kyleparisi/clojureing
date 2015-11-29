@@ -11,7 +11,10 @@ java -cp clojure clojure.main
 ```
 `-cp <class search path of directories and zip/jar files>`
 
-The above will start a REPL.  Try it out with `(+ 1 1)`.  Exit with `ctrl+d` (*nix users).  
+The above will start a REPL.  Try it out with `(+ 1 1)`.  Exit with `ctrl+d` (*nix users).
+
+Or run your command inline with
+`java -cp clojure clojure.main -e "(println 1)"`  
 
 
 ## HELLO WORLD
