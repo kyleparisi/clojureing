@@ -22,7 +22,14 @@ Classic example of printing hello world.
 java -cp clojure clojure.main helloworld.clj
 ```
 
-### CLEANUP
+## [NEXT](https://github.com/kyleparisi/clojureing/tree/network)
+
+```shell
+git checkout network
+```
+
+
+#### CLEANUP
 
 ```shell
 rm -rf cloj*
