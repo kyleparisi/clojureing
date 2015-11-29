@@ -1,6 +1,6 @@
 # LEARNING
 
-Reference: [http://clojure.org/getting_started](http://clojure.org/getting_started)
+[Referecne](http://clojure.org/getting_started)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Downloads](http://clojure.org/downloads)
 
 ```shell
 wget http://repo1.maven.org/maven2/org/clojure/clojure/1.7.0/clojure-1.7.0.zip
@@ -21,10 +21,6 @@ Classic example of printing hello world.
 ```shell
 java -cp clojure clojure.main helloworld.clj
 ```
-
-## NETWORK REQUEST - RANDOM WORD
-
-
 
 ### CLEANUP
 
