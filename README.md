@@ -1,29 +1,10 @@
 # LEARNING
 
-[Referecne](http://clojure.org/getting_started)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Downloads](http://clojure.org/downloads)
+[Referecne](http://stackoverflow.com/questions/6734908/how-to-execute-system-commands)
+
+## SYSTEM COMMANDS
+
 
 ```shell
-wget http://repo1.maven.org/maven2/org/clojure/clojure/1.7.0/clojure-1.7.0.zip
-unzip clojure-1.7.0.zip
-rm clojure-1.7.0.zip
-ln -s clojure-1.7.0/clojure-1.7.0.jar ./clojure
-java -cp clojure clojure.main
-```
-`-cp <class search path of directories and zip/jar files>`
-
-The above will start a REPL.  Try it out with `(+ 1 1)`.  Exit with `ctrl+d` (*nix users).  
-
-
-## HELLO WORLD
-
-Classic example of printing hello world.
-
-```shell
-java -cp clojure clojure.main helloworld.clj
-```
-
-### CLEANUP
-
-```shell
-rm -rf cloj*
+java -cp clojure clojure.main command.clj
 ```
